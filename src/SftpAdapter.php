@@ -8,9 +8,9 @@ use League\Flysystem\Adapter\Polyfill\StreamedCopyTrait;
 use League\Flysystem\AdapterInterface;
 use League\Flysystem\Config;
 use League\Flysystem\Util;
-use phpseclib\Crypt\RSA;
-use phpseclib\Net\SFTP;
-use phpseclib\System\SSH\Agent;
+use phpseclib3\Crypt\RSA;
+use phpseclib3\Net\SFTP;
+use phpseclib3\System\SSH\Agent;
 
 class SftpAdapter extends AbstractFtpAdapter
 {
